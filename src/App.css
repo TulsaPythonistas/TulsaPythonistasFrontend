@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:wght@100&display=swap');
-
-
-.App {
-  text-align: center;
+*{
+  box-sizing: border-box;
+  margin: 0;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Poppins:wght@100&display=swap');
 
 .App-logo {
   height: 40vmin;
@@ -22,11 +22,13 @@
 }
 
 .feature-text {
+  text-align: center;
   color: black;
   font-family: 'Poppins', sans-serif;
 }
 
 .sub-feature-text {
+  text-align: center;
   color: black;
   font-family: 'Poppins', sans-serif;
 }
